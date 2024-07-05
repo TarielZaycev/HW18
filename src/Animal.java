@@ -1,7 +1,9 @@
-public class Animal {
+public abstract class Animal {
     private Double weight;
     private Integer age;
     private String name;
+
+    public abstract void move();
 
     public void walk(){
         System.out.println("животное идет по земле");
